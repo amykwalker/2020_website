@@ -66,14 +66,15 @@
 		$('.carousel-testimony').owlCarousel({
 			center: true,
 			loop: false,
-			items:1,
-			margin: 30,
+			items:5,
+			margin: 0,
 			stagePadding: 0,
+			startPosition: 1,
 			nav: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
-					items: 1
+					items: 3
 				},
 				600:{
 					items: 3
@@ -97,13 +98,13 @@
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
-					items: 1
+					items: 3
 				},
 				600:{
-					items: 1
+					items: 3
 				},
 				1000:{
-					items: 1
+					items: 3
 				}
 			}
 		});
