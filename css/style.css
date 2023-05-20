@@ -1,58 +1,24 @@
-.image-container {
-	position: relative;
-  }
+  /* CUSTOMIZE THE INTRO ICONS
+  -------------------------------------------------- */ 
+.icon-service {
+  line-height: 1.3;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #aaa;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
   
-  .expand-icon {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	
-	cursor: pointer;
-	color: #fff;
-	font-size: 24px;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 50%;
-	padding: 8px;
-	display: none;
-  }
-  
-  .expand-icon:hover {
-	background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .modal {
-	display: none;
-	position: fixed;
-	z-index: 1050;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	outline: 0;
-  }
-  
-  .modal-dialog {
-	position: relative;
-	width: auto;
-	margin: 10px;
-  }
-  
-  .modal-content {
-	width: 100%;
-  }
-  
-  .modal-body {
-	text-align: center;
-  }
-  
-  .modal-body img {
-	max-width: 100%;
-	height: auto;
-  }
 
+.icon-border{ 
+  border: 2px solid blue;
+  border-radius: 50%;
+}
 
-/* CUSTOMIZE THE MEMBERS CARDS
+/* CUSTOMIZE THE LAB MEMBERS CARDS
   -------------------------------------------------- */
 .profile-image{
 	border-radius: 20px;
@@ -64,7 +30,7 @@
 }
 
 
-  /* CUSTOMIZE THE CAROUSEL
+  /* CUSTOMIZE THE FOR FUN CAROUSEL
   -------------------------------------------------- */
   
   /* Carousel base class */
@@ -75,9 +41,12 @@
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     background-color: #87a58d; /* Replace with your desired color */
+    position: relative;
+    bottom: -58%;
 	
   }
-
+  
+  
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
 	bottom: 3rem;
@@ -97,7 +66,9 @@
     margin: 0 auto;
   }
   
-
+/* NOT USED
+  -------------------------------------------------- */
+  
   .eden-animated {
 	-webkit-animation-duration: .5s;
 	animation-duration: .5s;

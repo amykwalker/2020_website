@@ -13,16 +13,3 @@ $(document).ready(function () {
     });
 
 });
-
-// Show the expand icon on hover
-$('.image-container').hover(function() {
-    $(this).find('.expand-icon').fadeIn();
-  }, function() {
-    $(this).find('.expand-icon').fadeOut();
-  });
-  
-  // Open the modal on click
-  $('.expand-icon').click(function() {
-    $('#imageModal').modal('show');
-  });
-  
