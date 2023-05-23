@@ -11,7 +11,7 @@
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-  
+
 
 .icon-border{ 
   border: 2px solid blue;
@@ -68,13 +68,6 @@
   
 /* NOT USED
   -------------------------------------------------- */
-  
-  .eden-animated {
-	-webkit-animation-duration: .5s;
-	animation-duration: .5s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-  }
   
   
   
